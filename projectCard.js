@@ -1,4 +1,4 @@
-import { LitElement, html, css } from "lit-element";
+import { LitElement, html, css, property } from "lit-element";
 
 class ProjectCard extends LitElement {
 	static get styles() {
@@ -8,6 +8,7 @@ class ProjectCard extends LitElement {
 				transition: 0.3s;
 				border-radius: 5px;
 				width: 300px;
+				margin: 20px;
 			}
 			.card:hover {
 				box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);

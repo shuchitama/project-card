@@ -4,9 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lit-element Demo</title>
+  <style>
+    .cards {
+      display:flex;
+    }
+  </style>
 </head>
 <body>
-  <project-card name="TabFinder" url="https://github.com/shuchitama/tab-finder" img="https://www.dotcom-monitor.com/blog/wp-content/uploads/sites/3/2020/05/Vue-logo-1.png"></project-card>
   <script type="module" src="./projectCard.js"></script>
+  <div class="cards">
+    <project-card name="TabFinder" url="https://github.com/shuchitama/tab-finder" img="https://www.dotcom-monitor.com/blog/wp-content/uploads/sites/3/2020/05/Vue-logo-1.png"></project-card>
+    <project-card name="Scheduler" url="https://github.com/shuchitama/scheduler" img="https://cdn.auth0.com/blog/react-js/react.png"></project-card>
+  </div>
 </body>
 </html>
