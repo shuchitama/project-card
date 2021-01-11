@@ -1,6 +1,6 @@
 # Project Cards
 
-Custom html web component that lets you add a project card with an image, name, and url, for example as part of a portfolio. Created based on [this](https://www.youtube.com/watch?v=8gMDhXWMxRg&t=63s&ab_channel=freeCodeCamp.org) tutorial
+Custom html web component using Lit-Element that lets you add a project card with an image, name, and url, for example as part of a portfolio. Created based on [this](https://www.youtube.com/watch?v=8gMDhXWMxRg&t=63s&ab_channel=freeCodeCamp.org) tutorial
 
 ## Getting started
 
